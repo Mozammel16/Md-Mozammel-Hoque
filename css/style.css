@@ -1,0 +1,68 @@
+/* Reset and base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Container for layout */
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* Sidebar styles */
+.sidebar {
+  width: 280px;
+  background-color: #a0522d;
+  color: white;
+  text-align: center;
+  padding: 2rem 1rem;
+}
+
+/* Profile image */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Navigation links */
+.nav a {
+  display: block;
+  margin: 1rem 0;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a.active {
+  color: white;
+}
+
+/* Main content */
+.main-content {
+  flex: 1;
+  padding: 3rem;
+  background-color: #fff;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #2c3e50;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #a0522d;
+  margin-bottom: 1.5rem;
+}
+
+.description {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #333;
+}
